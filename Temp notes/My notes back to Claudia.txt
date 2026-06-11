@@ -1,0 +1,11 @@
+
+
+Volunteer with US form:
+	we haven't provided for that so far.
+
+
+Hi Claudia,
+I worked and have tried to add all the changes you listed. One thing I noticed as the literal change where you requested: perhaps you could change the top tab that says “Events” to “Elections” and that page could show information about the upcoming primary, early voting information, voter registration and ballot requests.That change - the way it was coded seems to have removed the "Events" section from the page. That was a surprise and I'm not sure you intended that, so I wanted to bring that up.I found that the the Upcoming Events button links to the Facebook page and the was the work of AI logic and can be changed. I think it's just a question of whether the Events and adding them via a Form is a priority.
+
+Also, there is a Volunteer with Us section that has a form. We can review if you want to keep and work with that form.
+I had done more to have an Events form, but it's a work it progress and we can discuss.

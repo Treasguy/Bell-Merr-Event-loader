@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main # Change to master if your repo uses master
+
+# Where uploaded event banner images will be saved
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "events"
+    label: "Club Events"
+    folder: "_data/events" # The directory where individual event data files will save
+    create: true # Allows users to create brand new entries
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Event Title", name: "title", widget: "string" }
+      - { label: "Date & Time", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm" }
+      - { label: "Event Location", name: "location", widget: "string" }
+      - { label: "Event Banner/Flyer", name: "banner", widget: "image" }
+      - { label: "Description & Details", name: "body", widget: "markdown" }
