@@ -1,6 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+  .election-info-card {
+  grid-column: span 1;
+  background-color: #f5f5f5;
+  border: 2px solid #333;
+}
+
+.election-info-card .candidate-body {
+  padding: 20px;
+}
+
+.election-info-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.election-info-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.candidates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+.candidates-table th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.election-info-card a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.election-info-card a:hover {
+  color: #0052a3;
+}
+
+</style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bellmore Merrick Democratic Club — Nassau County, New York</title>
@@ -879,29 +930,29 @@
       <div style="background:white;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:0 0 6px 6px;padding:24px 22px;">
         <div style="font-size:28px;margin-bottom:12px;">📅</div>
         <div style="font-family:var(--serif);font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px;">Early Voting</div>
-        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Find early voting locations, dates, and hours for Nassau County elections. Vote early — it's convenient and your vote counts.</div>
-        <a href="https://www.nassaucountyny.gov/566/Board-of-Elections" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Early Voting Info →</a>
+        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Nassau-Early-Voting-Flyer-Primary-Election-2026</div>
+        <a href="https://www.nassaucountyny.gov/DocumentCenter/View/53043/Nassau-Early-Voting-Flyer-Primary-Election-2026" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Early Voting Info →</a>
       </div>
 
       <div style="background:white;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:0 0 6px 6px;padding:24px 22px;">
         <div style="font-size:28px;margin-bottom:12px;">✉️</div>
         <div style="font-family:var(--serif);font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px;">Absentee &amp; Mail-In Ballot</div>
-        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Request an absentee or mail-in ballot for the upcoming election. Deadlines apply — request early.</div>
-        <a href="https://www.nassaucountyny.gov/566/Board-of-Elections" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Request a Ballot →</a>
+        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Absentee/Mail in Ballots use this link: Absentee Ballot Application | Nassau County, NY - Official Website</div>
+        <a href="https://www.nassaucountyny.gov/567/Absentee-Ballot-Application" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Request a Ballot →</a>
       </div>
 
       <div style="background:white;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:0 0 6px 6px;padding:24px 22px;">
         <div style="font-size:28px;margin-bottom:12px;">🏛️</div>
         <div style="font-family:var(--serif);font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px;">Who Represents Me?</div>
-        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Find your Nassau County elected officials — from local school board to Congress — based on your home address.</div>
-        <a href="https://www.nassaucountyny.gov/566/Board-of-Elections" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Find My Representatives →</a>
+        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">New York State Elected Officials | New York State Board of Elections</div>
+        <a href="https://elections.ny.gov/new-york-state-elected-officials" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Find My Representatives →</a>
       </div>
 
       <div style="background:white;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:0 0 6px 6px;padding:24px 22px;">
         <div style="font-size:28px;margin-bottom:12px;">📍</div>
         <div style="font-family:var(--serif);font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px;">Find Your Polling Place</div>
-        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Look up your assigned polling location for Election Day. Know where to go before the day arrives.</div>
-        <a href="https://www.nassaucountyny.gov/566/Board-of-Elections" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Find My Polling Place →</a>
+        <div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:14px;">Voter Search Screen for VoterLookUp</div>
+        <a href="https://voterlookup.elections.ny.gov/" target="_blank" style="font-size:14px;font-weight:600;color:var(--sky);">Find My Polling Place →</a>
       </div>
 
     </div>
@@ -913,7 +964,6 @@
   </div>
 </section>
 
-<!-- ── CANDIDATES ── -->
 <section class="section" id="candidates">
   <div class="section-inner">
     <div class="eyebrow">2026 Elections</div>
@@ -921,46 +971,148 @@
     <p class="section-lead">Our candidates are committed to fighting for the families of Bellmore and Merrick. Get to know the people asking for your vote.</p>
 
     <div class="candidates-grid">
-      <div class="candidate-card">
-        <div class="candidate-photo">👤</div>
+      <!-- CARD 1: Election Info & Table -->
+      <div class="candidate-card election-info-card">
         <div class="candidate-body">
-          <div class="candidate-name">[Candidate Name]</div>
-          <div class="candidate-office">[Office Sought]</div>
-          <div class="candidate-bio">[Brief background, experience, and why this candidate is running. To be provided by the club.]</div>
-          <div class="placeholder-note">— placeholder, replace with real content —</div>
+          <h3>In Candidate 1 Square:</h3>
+          <p><strong>Democratic Primary June 23, 2026</strong></p>
+          <p><strong>Early Voting –</strong> June 13-21 <a href="#">See Nassau-Early-Voting-Flyer-Primary-Election-2026</a></p>
+          
+          <table class="candidates-table">
+            <thead>
+              <tr>
+                <th>Elected Office & Candidate</th>
+                <th>Party</th>
+                <th>Vote For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>State Comptroller</strong></td>
+                <td></td>
+                <td>Vote for One (1)</td>
+              </tr>
+              <tr>
+                <td>Thomas P. DiNapoli</td>
+                <td>DEM</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Drew Warshaw</td>
+                <td>DEM</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Raj Goyle</td>
+                <td>DEM</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
+
+      <!-- CARD 2: Laura Gillen -->
       <div class="candidate-card">
-        <div class="candidate-photo" style="background:linear-gradient(160deg,#1a6b35,#3aaa6a)">👤</div>
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#1a3a6b,#3a6aaa)">
+          <img src="Candidates/Gillen.png" alt="Laura Gillen" style="width:100%; height:100%; object-fit:contain;">
+        </div>
         <div class="candidate-body">
-          <div class="candidate-name">[Candidate Name]</div>
-          <div class="candidate-office">[Office Sought]</div>
-          <div class="candidate-bio">[Brief background, experience, and why this candidate is running. To be provided by the club.]</div>
-          <div class="placeholder-note">— placeholder, replace with real content —</div>
+          <div class="candidate-name">Laura Gillen</div>
+          <div class="candidate-office">U.S. Congress – 4th District</div>
+          <div class="candidate-bio">Laura knows first-hand the challenges facing New York families. She is committed to keeping families safe, growing the economy, and making Nassau County a place where people can afford to buy a home, raise a family and open a business.</div>
         </div>
       </div>
+
+      <!-- CARD 3: Kathy Hochul -->
       <div class="candidate-card">
-        <div class="candidate-photo" style="background:linear-gradient(160deg,#6b1a1a,#aa3a3a)">👤</div>
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#c41e3a,#ff6b6b)">
+          <img src="Candidates/Hochul.png" alt="Kathy Hochul" style="width:100%; height:100%; object-fit:contain;">
+        </div>
         <div class="candidate-body">
-          <div class="candidate-name">[Candidate Name]</div>
-          <div class="candidate-office">[Office Sought]</div>
-          <div class="candidate-bio">[Brief background, experience, and why this candidate is running. To be provided by the club.]</div>
-          <div class="placeholder-note">— placeholder, replace with real content —</div>
+          <div class="candidate-name">Kathy Hochul</div>
+          <div class="candidate-office">Governor of New York</div>
+          <div class="candidate-bio">Kathy Hochul is the 57th Governor of New York. Since taking office, she has brought a fresh and collaborative approach to government and is working hard to get results for New Yorkers.</div>
         </div>
       </div>
+
+      <!-- CARD 4: Andrew Piddoubny -->
       <div class="candidate-card">
-        <div class="candidate-photo" style="background:linear-gradient(160deg,#3a1a6b,#6a3aaa)">👤</div>
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#1a3a6b,#3a6aaa)">
+          <img src="Candidates/Piddoubny.png" alt="Andrew Piddoubny" style="width:100%; height:100%; object-fit:contain;">
+        </div>
         <div class="candidate-body">
-          <div class="candidate-name">[Candidate Name]</div>
-          <div class="candidate-office">[Office Sought]</div>
-          <div class="candidate-bio">[Brief background, experience, and why this candidate is running. To be provided by the club.]</div>
-          <div class="placeholder-note">— placeholder, replace with real content —</div>
+          <div class="candidate-name">Andrew Piddoubny</div>
+          <div class="candidate-office">NYS Senate – 5th District</div>
+          <div class="candidate-bio">Andrew Piddoubny is a dedicated public servant, father, and community advocate running for New York State Senate. He serves as a law clerk to a New York State Supreme Court Justice in the Guardianship Part, where he works to protect some of Nassau County's most vulnerable residents. A proud Ukrainian American, Andrew is the immediate past president and a current Board member of the Ukrainian American Bar Association. Most importantly, he is a devoted father to twin boys, who inspire his belief in building a safer and more affordable future for every family in New York.</div>
+        </div>
+      </div>
+
+      <!-- CARD 5: John E. Brooks -->
+      <div class="candidate-card">
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#6b3a1a,#aa6a3a)">
+          <img src="Candidates/Brooks.png" alt="John E. Brooks" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+        <div class="candidate-body">
+          <div class="candidate-name">John E. Brooks</div>
+          <div class="candidate-office">NYS Assembly – 14th District</div>
+          <div class="candidate-bio">John E. Brooks is a seasoned politician from Long Island running for New York State Assembly District 14, with extensive experience in the State Senate and community service.</div>
+        </div>
+      </div>
+
+      <!-- CARD 6: Michael Vanunu -->
+      <div class="candidate-card">
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#1a6b6b,#3aaaaa)">
+          <img src="Candidates/Vanunu.png" alt="Michael Vanunu" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+        <div class="candidate-body">
+          <div class="candidate-name">Michael Vanunu</div>
+          <div class="candidate-office">Nassau County Legislator – 12th District</div>
+          <div class="candidate-bio">Michael Vanunu is fighting for a more affordable and safer Nassau County. As a dedicated legislator, he is committed to improving the quality of life for residents in the 12th District.</div>
+        </div>
+      </div>
+
+      <!-- CARD 7: Joseph Scianablo -->
+      <div class="candidate-card">
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#6b1a3a,#aa3a6a)">
+          <img src="Candidates/Scianablo.png" alt="Joseph Scianablo" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+        <div class="candidate-body">
+          <div class="candidate-name">Joseph Scianablo</div>
+          <div class="candidate-office">Hempstead Supervisor</div>
+          <div class="candidate-bio">Joe Scianablo is a Marine combat veteran, former NYPD officer, and prosecutor who has dedicated his life to service, leadership, and protecting the most vulnerable. His journey, from the battlefields of Iraq to the streets of New York and now to the fight for a better Town of Hempstead, has been shaped by an unshakable commitment to duty and justice.</div>
+        </div>
+      </div>
+
+      <!-- CARD 8: Joylette Williams -->
+      <div class="candidate-card">
+        <div class="candidate-photo" style="background:linear-gradient(160deg,#1a6b35,#3aaa6a)">
+          <img src="Candidates/Joylette.png" alt="Joylette Williams" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+        <div class="candidate-body">
+          <div class="candidate-name">Joylette Williams</div>
+          <div class="candidate-office">Hempstead Clerk</div>
+          <div class="candidate-bio">As Town Clerk, Joylette will bring independent leadership, integrity, and a people-first approach to government. Her mission is simple: make government work better, be more transparent, and serve every resident with respect because in the Town of Hempstead, there should be No Community Left Behind.</div>
         </div>
       </div>
     </div>
 
   </div>
 </section>
+
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
 
 <!-- ── VOLUNTEER ── -->
 <section class="section section-dark" id="volunteer">
@@ -1043,36 +1195,43 @@
   </div>
 </section>
 
-<!-- ── COMMITTEES ── -->
-<section class="section section-alt" id="committees">
-  <div class="section-inner">
-    <div class="eyebrow">Associated Committees</div>
-    <h2 class="section-title">Our Committees</h2>
-    <p class="section-lead">The Bellmore Merrick Democratic Club works through a number of active committees focused on issues that matter to our community. Committee pages are being developed — content coming soon.</p>
-
-    <div class="committees-grid">
+<div class="committees-grid">
 
       <div class="committee-card">
-        <div class="committee-icon">🌿</div>
+        <div class="committee-icon">🍃</div>
         <div class="committee-name">Environment Committee</div>
-        <div class="committee-desc">Advocating for clean air, clean water, and sustainable policies that protect Nassau County's natural resources for future generations.</div>
-        <a href="#" class="committee-link">Learn More →</a>
+        <div class="committee-desc">
+          Learn more: Visit the LI Clean Air Water & Soil Facebook page for current issues.
+          <br><br>
+          <a href="https://www.facebook.com/LICAWS" target="_blank" style="color: #0056b3; text-decoration: underline;">Visit LICAWS Facebook Page</a>
+          <br><br>
+          Be sure to click Upcoming Events. For more information, email:
+        </div>
+        <a href="mailto:claudiaborecky@gmail.com" class="committee-link">claudiaborecky@gmail.com</a>
         <div><span class="coming-soon">Content Coming Soon</span></div>
       </div>
 
       <div class="committee-card">
         <div class="committee-icon">♀</div>
         <div class="committee-name">Women's Committee</div>
-        <div class="committee-desc">Supporting women candidates, advocating for women's rights, and engaging women in civic and political life across our community.</div>
-        <a href="#" class="committee-link">Learn More →</a>
+        <div class="committee-desc">
+          Supporting women's and human rights, advocating for the LGBTQ+ and immigrant communities.
+          <br><br>
+          Learn more: Please visit South Shore Women's Alliance Facebook page for current issues and click Upcoming Events.
+          <br><br>
+          <a href="https://www.facebook.com/SouthShoreWomensAlliance" target="_blank" style="color: #0056b3; text-decoration: underline;">Visit Facebook Page</a>
+          <br><br>
+          For more information, please email:
+        </div>
+        <a href="mailto:nassausouthshorewomensalliance@gmail.com" class="committee-link">nassausouthshorewomensalliance@gmail.com</a>
         <div><span class="coming-soon">Content Coming Soon</span></div>
       </div>
 
       <div class="committee-card">
         <div class="committee-icon">🎓</div>
         <div class="committee-name">Youth Committee</div>
-        <div class="committee-desc">Engaging young people in the democratic process, supporting youth civic education, and building the next generation of community leaders.</div>
-        <a href="#" class="committee-link">Learn More →</a>
+        <div class="committee-desc">https://standupyoumatter.org/</div>
+        <a href="#" class="committee-link">Email bellmoremerrickdemocrats@gmail.com if you'd like to get involved.</a>
         <div><span class="coming-soon">Content Coming Soon</span></div>
       </div>
 
@@ -1101,8 +1260,6 @@
       </div>
 
     </div>
-  </div>
-</section>
 
 <!-- ── VALUES ── -->
 <section class="section section-darker">
@@ -1140,8 +1297,8 @@
             <div class="stat-label">County, NY</div>
           </div>
           <div class="stat-box">
-            <div class="stat-num">2×</div>
-            <div class="stat-label">Communities</div>
+            <div class="stat-num"></div>
+            <div class="stat-label"></div>
           </div>
           <div class="stat-box">
             <div class="stat-num">Monthly</div>
