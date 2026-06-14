@@ -1163,6 +1163,12 @@
       <div class="vol-form-wrap">
         <div class="form-block-title">Sign Up to Volunteer</div>
         <p class="form-block-sub">Ready to make a difference? Fill out the form and a club coordinator will be in touch soon.</p>
+        
+        <!-- OPTION 1: DISCLAIMER TEXT (always visible) -->
+        <div class="form-disclaimer">
+          <p><strong>⚠️ Note:</strong> This form is currently under construction. Please check back soon.</p>
+        </div>
+
         <form onsubmit="submitForm(event,'vol-ok')">
           <div class="form-stack">
             <div class="form-group">
@@ -1193,7 +1199,10 @@
               <label class="form-label">Please indicate if you're interested in a specific campaign or committee</label>
               <textarea class="form-textarea" placeholder="Skills, availability, questions..."></textarea>
             </div>
-            <button type="submit" class="form-submit">Sign Up to Volunteer</button>
+            
+            <!-- OPTION 3: DISABLED SUBMIT BUTTON -->
+            <button type="submit" class="form-submit" disabled>Coming Soon</button>
+            
             <div class="form-success" id="vol-ok">✓ Thank you! A club coordinator will be in touch shortly.</div>
           </div>
         </form>
@@ -1202,7 +1211,25 @@
   </div>
 </section>
 
-<div class="committees-grid">
+
+<section class="section section-alt" id="committees">
+  <div class="section-inner">
+
+    <div class="eyebrow">Get Involved</div>
+    <h2 class="section-title">Committees</h2>
+    <p class="section-lead">
+      Our committees focus on the issues that matter most to our members and community.
+    </p>
+
+    <div class="committees-grid">
+
+      <!-- committee cards -->
+
+    </div>
+
+  </div>
+</section>
+
 
       <div class="committee-card">
         <div class="committee-icon">🍃</div>
@@ -1234,13 +1261,49 @@
         <div><span class="coming-soon"></span></div>
       </div>
 
-      <div class="committee-card">
-        <div class="committee-icon">🎓</div>
-        <div class="committee-name">Youth Committee</div>
-        <div class="committee-desc">https://standupyoumatter.org/</div>
-        <a href="#" class="committee-link">Email bellmoremerrickdemocrats@gmail.com if you'd like to get involved.</a>
-        <div><span class="coming-soon"></span></div>
-      </div>
+
+```html
+<div class="committee-card">
+  <div class="committee-icon">🎓</div>
+
+  <div class="committee-name">Youth Committee</div>
+
+  <div class="committee-desc">
+    This Committee is committed to giving young people a real seat at the table.
+    Consider joining our Youth Committee to help ensure our elected officials
+    engage with the issues that will shape the lives of future generations.
+
+    <br><br>
+
+    <strong>Stand Up. You Matter.</strong><br>
+    Local Politics. Real Power. Your Community.
+  </div>
+
+  <a href="https://standupyoumatter.org/"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="committee-link">
+    Visit Stand Up. You Matter →
+  </a>
+
+  <br><br>
+
+  <a href="mailto:bellmoremerrickdemocrats@gmail.com"
+     class="committee-link">
+    Email bellmoremerrickdemocrats@gmail.com if you'd like to get involved.
+  </a>
+</div>
+```
+
+
+
+
+
+
+
+
+
+
 
       <div class="committee-card">
         <div class="committee-icon">📚</div>
@@ -1359,7 +1422,7 @@
           <div class="contact-icon">✉️</div>
           <div>
             <div class="contact-label">Email</div>
-            <div class="contact-value"><a href="mailto:info@bellmoremerrickdems.org">info@bellmoremerrickdems.org</a></div>
+            <div class="contact-value"><a href="mailto:bellmoremerrickdemocrats@gmail.com">bellmoremerrickdemocrats@gmail.com</a></div>
           </div>
         </div>
         <div class="contact-item">
