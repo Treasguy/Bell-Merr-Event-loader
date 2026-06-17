@@ -1114,13 +1114,6 @@
 
 
 
-
-
-
-
-
-
-
 <!-- ── VOLUNTEER ── -->
 <section class="section section-dark" id="volunteer">
   <div class="section-inner">
@@ -1163,29 +1156,23 @@
       <div class="vol-form-wrap">
         <div class="form-block-title">Sign Up to Volunteer</div>
         <p class="form-block-sub">Ready to make a difference? Fill out the form and a club coordinator will be in touch soon.</p>
-        
-        <!-- OPTION 1: DISCLAIMER TEXT (always visible) -->
-        <div class="form-disclaimer">
-          <p><strong>⚠️ Note:</strong> This form is currently under construction. Please check back soon.</p>
-        </div>
-
-        <form onsubmit="submitForm(event,'vol-ok')">
+        <form name="volunteer-signup" method="POST" netlify>
           <div class="form-stack">
             <div class="form-group">
               <label class="form-label">Full Name <span class="req">*</span></label>
-              <input type="text" class="form-input" placeholder="Your name" required>
+              <input type="text" name="fullName" class="form-input" placeholder="Your name" required>
             </div>
             <div class="form-group">
               <label class="form-label">Email Address <span class="req">*</span></label>
-              <input type="email" class="form-input" placeholder="your@email.com" required>
+              <input type="email" name="email" class="form-input" placeholder="your@email.com" required>
             </div>
             <div class="form-group">
               <label class="form-label">Phone Number</label>
-              <input type="tel" class="form-input" placeholder="(516) 000-0000">
+              <input type="tel" name="phone" class="form-input" placeholder="(516) 000-0000">
             </div>
             <div class="form-group">
               <label class="form-label">How would you like to help?</label>
-              <select class="form-select">
+              <select name="helpType" class="form-select">
                 <option value="">Select an option...</option>
                 <option>Canvassing / Door Knocking</option>
                 <option>Phone Banking</option>
@@ -1197,12 +1184,9 @@
             </div>
             <div class="form-group">
               <label class="form-label">Please indicate if you're interested in a specific campaign or committee</label>
-              <textarea class="form-textarea" placeholder="Skills, availability, questions..."></textarea>
+              <textarea name="campaign" class="form-textarea" placeholder="Skills, availability, questions..."></textarea>
             </div>
-            
-            <!-- OPTION 3: DISABLED SUBMIT BUTTON -->
-            <button type="submit" class="form-submit" disabled>Coming Soon</button>
-            
+            <button type="submit" class="form-submit">Sign Up to Volunteer</button>
             <div class="form-success" id="vol-ok">✓ Thank you! A club coordinator will be in touch shortly.</div>
           </div>
         </form>
@@ -1210,6 +1194,8 @@
     </div>
   </div>
 </section>
+
+
 
 
 <section class="section section-alt" id="committees">
